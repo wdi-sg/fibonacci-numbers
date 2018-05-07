@@ -24,16 +24,12 @@ function fibonacci_dynamic(n) {
 
 // console.log(fibonacci_dynamic(process.argv[2]));
 
-function fibonacci_tail_actual(i, j, n) {
+function fibonacci_tail_recursive(n, i = 1, j = 1) {
     if (n <= 2) {
         return j;
     } else {
-        return fibonacci_tail_actual(j, i+j, n-1);
+        return fibonacci_tail_recursive(n-1, j, i+j);
     };
-};
-
-function fibonacci_tail_recursive(n) {
-    return fibonacci_tail_actual(1, 1, n);
 };
 
 console.log(fibonacci_tail_recursive(process.argv[2]));
