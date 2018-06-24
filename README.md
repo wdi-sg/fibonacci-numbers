@@ -9,10 +9,10 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number):
 These are the first 8 fibonacci numbers:
 
 ```
-0, 1, 1, 2, 3, 5, 8, 13, ...
+1, 1, 2, 3, 5, 8, 13, 21 ...
 ```
 
-Therefore `fibonacci(8)` should dynamically calculate and return the value 13.
+Therefore `fibonacci(8)` should dynamically calculate and return the value 21.
 
 ## Further - optionally return a list
 
@@ -66,3 +66,4 @@ After class, try googling for "dynamic programming" and try and implement a recu
 This, as you might imagine, is a commonly asked question by technical interviewers.
 
 Good luck!
+
