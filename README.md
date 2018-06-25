@@ -36,8 +36,7 @@ In the case of Fibonacci, a recursive algorithm might be easier to reason about 
 
 ```js
 function fibonacci(n) {
-    if (n === 0 || n === 1) return 0;
-    if (n === 2) return 1;
+    if (n === 1 || n === 2) return 1;
 
     return fibonacci(n - 2) + fibonacci(n - 1);
 }
