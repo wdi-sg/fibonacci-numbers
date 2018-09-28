@@ -1,5 +1,7 @@
 # Fibonacci numbers
 
+![https://www.geeksforgeeks.org/wp-content/uploads/fibonacci-sequence.png](https://www.geeksforgeeks.org/wp-content/uploads/fibonacci-sequence.png)
+
 Write a function that generates and returns the n-th fibonacci number.
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number):
@@ -26,8 +28,6 @@ function fibonacci(n, returnList) {
 }
 ```
 
-ES6 allows default parameter values - would you use one here?
-
 ## Further - recursive algorithm
 
 Every algorithm can be implemented iteratively _and_ recursively. One approach may be more suitable than the other in most situations, but it's still feasible to implement both.
@@ -45,6 +45,9 @@ function fibonacci(n) {
 Yes, you're not seeing things - this function is calling itself. Some might say, it's _recursing_ on itself. This is perfectly valid code.
 
 Play with the above function by adding `console.log` and `debugger` statements and try and understand how it works. Then, delete the code and try implementing it yourself.
+
+## Further - visualize
+Use HTML5 canvas to draw the above figure.
 
 ## Further - dynamic programming
 
