@@ -47,7 +47,7 @@ Yes, you're not seeing things - this function is calling itself. Some might say,
 Play with the above function by adding `console.log` and `debugger` statements and try and understand how it works. Then, delete the code and try implementing it yourself.
 
 ## Further - visualize
-Use HTML5 canvas to draw the above figure.
+Use HTML5 canvas to draw the above figure (without the numbers). If you are able to draw the squares, try adding a random color to each new square. 
 
 ## Further - dynamic programming
 
